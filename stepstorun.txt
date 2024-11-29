@@ -11,38 +11,40 @@ Before running the app, make sure you have the following installed:
 ## Installation
 
 1. Clone the repository to your local machine:
-   ```bash
+   
    git clone https://github.com/AnupHMuralidhar/WasteSegregation.git
-   ```
+   
 
 2. Navigate to the project directory:
-   ```bash
+   
    cd <project_directory>
-   ```
+  
 
 3. Install the required Python dependencies:
-   ```bash
+ 
    pip install -r requirements.txt
-   ```
+  
 
 ## Running the App
 
 1. Open a terminal/command prompt in the project directory.
 
 2. Run the following command to start the app:
-   ```bash
-   streamlit run app.py
-   ```
+   
+   streamlit run info.py
+   
 
 3. The app should now be running locally. You can access it through your browser at:
-   ```txt
+   
    http://localhost:8501
-   ```
 
-## Try the AI Model
+4. Also run another app:
 
-After launching the app, you'll be able to select landfills and view information about them. If you'd like to try the AI model for waste segregation, simply click on the link provided in the app.
+    streamlit run app.py
 
-The app uses a local Streamlit server on port `8502` for the AI segregation page:
-```txt
-http://localhost:8502
+5. The app should now be running locally:
+   
+   http://localhost:8502
+   Do not open this app in a separate webpage.
+   
+6. View the Landfill page and the Link at the end of the page will auto redirect to Waste Classification page.
