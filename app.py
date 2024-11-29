@@ -30,8 +30,8 @@ category_colors = ['red', 'green', 'blue', 'orange', 'purple', 'cyan', 'magenta'
                    'brown', 'pink', 'gray', 'lightblue']
 
 # Streamlit UI setup
-st.set_page_config(page_title="Waste Classification System", page_icon=":recycle:", layout="wide")
-st.title("Waste Classification System")
+st.set_page_config(page_title="Waste Classification Demo", page_icon=":recycle:", layout="wide")
+st.title("Waste Classification Demo with our Trained AI Model")
 
 # Add file uploader on the left
 st.sidebar.header("Upload Images")
