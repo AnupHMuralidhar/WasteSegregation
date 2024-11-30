@@ -1,27 +1,13 @@
-# Streamlit for creating the app
+# requirements.txt
+
 streamlit==1.22.0
-
-# pydeck for map visualizations (if used)
 pydeck==0.8.0
-
-# TensorFlow (if you're using TensorFlow for your AI model)
-tensorflow==2.16.0  # Check for compatibility with your setup
-
-# If you're using Keras (for the AI model)
-keras==2.10.0
-
-# Other dependencies for your specific app functionality (e.g., image processing, model handling)
-Pillow==9.3.0   # For image processing
-numpy==1.23.4   # For numerical operations
-pandas==1.5.1   # For handling data, if needed
-scikit-learn==1.1.2   # For machine learning tools (if used)
-
-# If using a model or dataset from external sources, you might also need
-requests==2.28.1   # For any API calls or external dataset access
-matplotlib==3.6.2  # For data visualizations (if needed)
-
-# Ensure setuptools is installed, which includes distutils functionality
-setuptools>=40.8.0
-
-# Include wheel for building packages (replace distutils)
-wheel>=0.36.0
+tensorflow
+keras
+Pillow
+numpy
+pandas
+scikit-learn
+requests
+matplotlib
+setuptools>=65.0.0  # Ensures compatibility with Python 3.12
