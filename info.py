@@ -167,6 +167,13 @@ st.write(landfill_info[landfill_selection])
 # Try the AI Model button
 
 # Message under the button
+# Existing markdown with the button
+st.markdown(
+    '<a href="https://wastesegregation-app.streamlit.app" target="_blank">'
+    '<button style="background-color: #4CAF50; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; cursor: pointer;">Click here to try the AI model</button></a>', 
+    unsafe_allow_html=True)
+
+# Message under the button
 st.markdown(
     """
     <div style="font-size: 14px; color: gray; margin-top: 20px;">
@@ -178,4 +185,5 @@ st.markdown(
     """, 
     unsafe_allow_html=True
 )
+
 
